@@ -15,12 +15,12 @@ const brands = [
 export function Footer() {
     return (
         <footer>
-           <section className="bg-amber-100 text-black py-16">
-            <div className="container mx-auto px-4">
-                <div className="border-b border-white pb-8">  
+           <section className="bg-amber-100 text-black py-16 " >
+            <div className="container mx-auto px-4 ">
+                <div className="border-b border-white pb-8 ">  
                     <h4 className='text-3xl font-semibold mb-8 text-center'>Aceitamos</h4>
                
-                    <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+                    <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'data-aos="fade-up-right" data-aos-delay="300">
                         {brands.map((item, index) => (
                             <div key= {index}  className='bg-white p-4 rounded-lg flex items-center justify-center'> 
                               <Image

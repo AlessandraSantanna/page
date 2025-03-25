@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Projeto Bolos Doce Sabor 🎂
+O site Doce Sabor é um projeto voltado para a venda de bolos e tortas artesanais. As principais funcionalidades e detalhes do site incluem:
 
-## Getting Started
+🧁 Funcionalidades principais:
+- Apresentação de Produtos:
+Galeria com imagens de bolos, tortas e docinhos personalizados.
+- Serviços oferecidos:
+Entrega a domicílio.
+- Atendimento personalizado para clientes.
+- Decoração de bolos sob demanda.
+- Produção de bolos e tortas por encomenda para eventos.
+- Botão integrado para contato via WhatsApp.
+- Seção com avaliações e experiências de clientes anteriores.
+- Oferta de 5% de desconto na primeira compra.
+ Objetivo do projeto:
+Promova os serviços de confeitaria da marca Doce Sabor, facilite o contato com clientes e permita a encomenda de bolos personalizados de forma prática e visualmente atrativa.
 
-First, run the development server:
+ 
+🎯projeto utilize as seguintes tecnologias:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧩 Vercel
+A hospedagem do site é realizada na [Vercel](https://vercel.com), uma plataforma que facilita a implantação e o gerenciamento de aplicações web, oferecendo recursos como:
+- SSL automático
+- Integração contínua com repositórios Git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚛️ Next.js
+Considerando a integração estreita entre a Vercel e o Next.js, é provável que o site utilize este **framework React** para desenvolvimento de aplicações web. Entre os principais benefícios:
+- Renderização híbrida (SSR + SSG)
+- Geração estática de páginas
+- Performance otimizada
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ React
+O Next.js é construído sobre o **React**, uma biblioteca JavaScript popular para criação de interfaces de usuário. Isso indica que o React provavelmente faz parte da stack do projeto.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Tailwind CSS
+O design moderno e responsivo do site sugere o uso do **Tailwind CSS**, um framework utilitário para estilização rápida e eficiente de componentes, com foco em responsividade e personalização.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

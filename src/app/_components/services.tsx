@@ -15,7 +15,7 @@ const services=[
 
 },
 {
-    title:"Atendimento Personalizados",
+    title:"Atendimento Eficaz",
     description:"Atendimento atencioso e personalizado para ajudar os clientes a escolherem os melhores produtos para suas necessidades.",
     duration:"1h",
     price:" Grátis",
